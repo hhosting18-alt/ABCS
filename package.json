@@ -1,0 +1,10 @@
+{
+  "name": "freecomers-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Freecomers / Festy site and onboarding prototype (static, no build step).",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "deploy": "npx vercel --prod"
+  }
+}

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Freecomers | Meet Festy, your film festival strategist</title>
+<meta name="description" content="Festy reads your film and tells you which festivals to send it to, when, and why. Built for Indian independent film. Free in Public Beta.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Freecomers | Meet Festy, your film festival strategist">
+<meta property="og:description" content="Stop guessing which of 13,000+ festivals want your film. Free in Public Beta.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f63d18">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/universo-black.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/mosvita-semibold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script>window.FC_PRETTY_URLS = true;</script>
+</head>
+<body>
+<div class="transition" id="transition" aria-hidden="true"></div>
+
+<!-- ================= HOME ================= -->
+<div class="view is-active" id="view-home" data-view="home">
+  <nav class="nav" id="homeNav" aria-label="Main">
+    <div class="nav-inner grid">
+      <a class="nav-logo" id="navLogo" href="#top" data-scrollto="top" aria-label="Freecomers, back to top"><span class="wordmark" id="heroMark">freecomers</span></a>
+      <ul class="nav-list">
+        <li data-load="nav-item"><a class="hov" href="#how" data-scrollto="how"><span class="chars" data-chars>How it works,</span></a></li>
+        <li data-load="nav-item"><a class="hov" href="#pricing" data-scrollto="pricing"><span class="chars" data-chars>Pricing,</span></a></li>
+        <li data-load="nav-item"><a class="hov" href="#faq" data-scrollto="faq"><span class="chars" data-chars>FAQ,</span></a></li>
+        <li data-load="nav-item"><a class="hov" href="#start" data-go="intake"><span class="chars" data-chars>Join free</span></a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#how" data-scrollto="how">How it works</a>
+    <a href="#pricing" data-scrollto="pricing">Pricing</a>
+    <a href="#faq" data-scrollto="faq">FAQ</a>
+    <a href="#start" data-go="intake">Join free</a>
+    <a class="btn is-big hov" href="#start" data-go="intake"><span class="chars" data-chars>Get your free strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a>
+  </div>
+
+  <main>
+  <section class="hero" id="top" data-hero>
+    <div class="trail" id="trail" aria-hidden="true"></div>
+    <div class="hero-layout grid">
+      <div class="hero-left">
+        <div class="hero-subs"><p data-load="sub1">Festival strategy</p><p data-load="sub2">Public beta</p></div>
+        <div class="hero-subtext faded" data-load="subtext"><p>Stop guessing which of 13,000+ festivals want your film. Festy reads <em>your</em> film, not a generic slate, and tells you where to send it, when, and why.</p></div>
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-tag" data-load="heading"><span>Meet Festy, your film festival strategist. Built for Indian independent film.</span></h1>
+        <div class="hero-cta">
+          <span class="btn-wrap"><a class="btn hov" href="#start" data-go="intake" data-load="button"><span class="chars" data-chars>Get your free strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="chapters">
+    <div class="banner-holder" aria-hidden="true">
+      <div class="grid"><div class="banner" id="banner">
+        <div class="banner-texts">
+          <div><span>The part nobody tells first-time filmmakers</span></div>
+          <div><span>What sits above a festival list</span></div>
+          <div><span>How Festy actually works</span></div>
+          <div><span>Where we draw the line</span></div>
+        </div>
+        <div class="banner-nums"><div><span>01</span></div><div><span>02</span></div><div><span>03</span></div><div><span>04</span></div></div>
+      </div></div>
+    </div>
+
+    <!-- 01 -->
+    <div data-chapter="0">
+      <section class="story" data-story>
+        <div class="story-wrap">
+          <div class="story-images" data-story-images>
+            <div class="story-img tile" data-tile="slamdance"></div>
+            <div class="story-img tile" data-tile="busan"></div>
+            <div class="story-img tile" data-tile="rotterdam"></div>
+            <div class="story-img tile" data-tile="tokyo"></div>
+          </div>
+          <h2 class="story-heading disp" data-story-text>
+            <span class="behind">Submitting blind is expensive, and it burns things you can’t get back</span>
+            <span class="front" aria-hidden="true">Submitting blind is expensive, and it burns things you can’t get back</span>
+          </h2>
+        </div>
+      </section>
+
+      <section class="explainer" data-explainer>
+        <div class="explainer-rule" data-divider></div>
+        <div class="ex-card" data-ex-card>
+          <div data-ex-heading>
+            <p>One wrong premiere, gone forever.</p>
+            <p>Your world premiere happens <em>once.</em> Send it to the wrong festival first and it’s spent.</p>
+            <p>₹2,000 to 8,000 per wrong guess. Most first-timers enter 15 to 20 festivals before one says yes.</p>
+            <p>And hours lost to spreadsheets and WhatsApp threads asking if a festival is <em>legit.</em></p>
+          </div>
+        </div>
+        <p class="ex-intro" data-scroll="lines"><span>A directory tells you festivals exist. Festy tells you which ones are actually for you, scored the same way on:</span></p>
+        <div class="ex-words disp" aria-label="Genre, runtime, language, premiere">
+          <span class="ex-word"><span>Genre</span></span>
+          <span class="ex-word"><span>Runtime</span></span>
+          <span class="ex-word"><span>Language</span></span>
+          <span class="ex-word"><span>Premiere</span></span>
+        </div>
+        <p class="ex-note" data-scroll="fade">(Big name or small one? Compared fairly.)</p>
+        <div class="ex-btn"><span class="btn-wrap" data-scroll="button"><a class="btn hov" href="#how" data-scrollto="how" data-btn-el><span class="chars" data-chars>See how it works</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a></span></div>
+      </section>
+    </div>
+
+    <!-- 02 -->
+    <div data-chapter="1">
+      <section class="clients" data-clients>
+        <div class="container">
+          <h2 class="cl-heading disp" data-cl-heading>
+            <span class="row">A strategy built</span>
+            <span class="row">from your film,</span>
+            <span class="row">not a search<span class="cl-script script" data-cl-script aria-label="filter">Filter</span></span>
+          </h2>
+          <div class="cl-paras grid">
+            <div class="cl-p1" data-scroll="lines"><p>Genre, runtime, language and premiere eligibility, scored the same way for every festival.</p><p>Premiere Guard flags any festival that would use up a premiere status you haven’t decided to spend yet.</p></div>
+            <div class="cl-p2" data-scroll="lines"><p>Your whole campaign lives in one plan per film: budget used, festivals in play, deadlines coming.</p><p>…instead of forty browser tabs. You click submit. Festy plans the route.</p></div>
+          </div>
+        </div>
+        <div class="cl-list">
+          <p class="cl-label">380+ festivals, cross-checked per film</p>
+          <ul class="cl-names" id="clNames"></ul>
+          <div class="cl-stick">
+            <div class="cl-logo-outer" data-logo-outer><div class="cl-logo" id="clLogo"></div></div>
+            <div class="cl-statements" id="clStatements"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- 03 -->
+    <div data-chapter="2" id="how">
+      <section class="ml container" data-ml>
+        <div class="disp ml-l1" data-scroll="chars">Built for</div>
+        <div class="disp ml-l2" data-scroll="chars">Indian film</div>
+        <div class="disp ml-l3" data-scroll="chars">in</div>
+        <div class="disp ml-rot" id="mlRot" aria-label="Marathi, Tamil, Bengali, Hindi">
+          <span>Marathi</span><span>Tamil</span><span>Bengali</span><span>Hindi</span><span>Marathi</span>
+        </div>
+        <p class="ml-text" data-scroll="lines"><span>Festival data cross-checked for a track record of selecting Indian regional-language and independent films.</span></p>
+      </section>
+
+      <section class="how" data-how>
+        <div class="how-sticky" id="howSticky">
+          <div class="disp how-what" data-scroll="chars">How</div>
+          <div class="how-mid">
+            <div class="how-copy">
+              <p data-scroll="lines"><span>Two minutes of structured questions. Then a plan that protects your premiere, fits your budget, and tells you why.</span></p>
+              <span class="btn-wrap" data-scroll="button"><a class="btn hov" href="#start" data-go="intake" data-btn-el><span class="chars" data-chars>Get your free strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a></span>
+            </div>
+            <div class="disp how-we" data-scroll="chars">It</div>
+          </div>
+          <div class="disp how-do" data-scroll="chars">Works</div>
+        </div>
+        <div class="how-cards" id="howCards"></div>
+      </section>
+    </div>
+
+    <!-- 04 -->
+    <div data-chapter="3">
+      <section class="lines-intro" data-lines>
+        <h2><span class="disp" style="display:block" data-scroll="chars">Where we</span><span class="disp" style="display:block" data-scroll="chars">draw the <span class="script" data-script>Line</span></span></h2>
+        <p class="copy" data-scroll="lines"><span>Four things Festy won’t do, no matter how the question is asked.</span></p>
+      </section>
+      <div id="slides"></div>
+    </div>
+  </div>
+
+  <section class="voices" data-voices>
+    <h2 class="voices-h disp"><span style="display:block" data-scroll="chars">Strategy beats</span><span style="display:block" data-scroll="chars">spray-and-pray</span></h2>
+    <div class="voices-grid">
+      <figure class="voice" data-voice style="margin:0"><q>I had ₹75,000 and one premiere to protect. Festy was the first thing that told me <em>why</em> a festival made sense for my film, not just that it existed.</q><figcaption class="who"><b>Shikha</b>Director, Dasubodh (Marathi feature), Mumbai</figcaption></figure>
+      <figure class="voice" data-voice style="margin:0"><q>I’m running three films at once. I needed one place that showed me budget and premiere status across all of them, not three separate spreadsheets.</q><figcaption class="who"><b>Aditya</b>Independent producer, Bangalore</figcaption></figure>
+      <figure class="voice" data-voice style="margin:0"><q>I didn’t know ‘Oscar-qualifying’ meant anything until Festy explained why it actually mattered for my film specifically.</q><figcaption class="who"><b>Ananya</b>Short filmmaker, Chennai</figcaption></figure>
+    </div>
+    <p class="voices-note faded" data-scroll="fade">Early filmmaker accounts from the Freecomers community, Public Beta.</p>
+  </section>
+
+  <section class="statement" id="pricing" data-statement>
+    <div class="st-wrap disp">
+      <h2 class="behind" data-st-behind><span>Free while we’re in public</span></h2>
+      <div class="front" data-st-front aria-hidden="true">Free while we’re in public</div>
+      <span class="st-script script" data-script aria-label="beta">Beta</span>
+    </div>
+    <p class="st-copy" data-scroll="lines"><span>Freecomers and Festy are free while we build this with early filmmakers. Pricing will be announced before beta ends, and nothing changes without telling you first.</span></p>
+    <div class="st-btn"><span class="btn-wrap" data-scroll="button"><a class="btn hov" href="#start" data-go="intake" data-btn-el><span class="chars" data-chars>Join free</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a></span></div>
+  </section>
+
+  <section class="faq" id="faq" data-faq>
+    <h2 class="faq-h disp" data-scroll="chars">Quick answers</h2>
+    <div id="faqList"></div>
+  </section>
+  </main>
+
+  <footer class="footer" data-footer-parallax>
+    <div class="footer-inner" data-footer-inner>
+      <div class="f-top grid">
+        <div class="f-lead">
+          <p>Stop guessing. Start with a plan.</p>
+          <a class="btn is-light hov" href="#start" data-go="intake"><span class="chars" data-chars>Get your free strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></a>
+        </div>
+        <div class="f-links">
+          <a class="hov" href="#how" data-scrollto="how"><span class="chars" data-chars>How it works</span></a>
+          <a class="hov" href="#pricing" data-scrollto="pricing"><span class="chars" data-chars>Pricing</span></a>
+          <a class="hov" href="#faq" data-scrollto="faq"><span class="chars" data-chars>FAQ</span></a>
+        </div>
+        <div class="f-contact">
+          <div><p class="lab">Who it’s for</p><p class="val">Directors, producers, crew and festival organizers</p></div>
+          <div><p class="lab">Your film’s details</p><p class="val">Never sold. Never used to train anything.</p></div>
+        </div>
+      </div>
+      <div class="f-mark" data-footer-bottom><span class="wordmark" id="footMark">freecomers</span></div>
+      <div class="f-bottom"><span>© 2026 Freecomers • Public beta</span><a href="#top" data-scrollto="top">Back to top</a><a href="#" data-toast="Privacy policy is coming with the beta launch.">Privacy</a><a href="#" data-toast="Terms are coming with the beta launch.">Terms</a></div>
+      <div class="footer-dark" data-footer-dark></div>
+    </div>
+  </footer>
+</div>
+
+<!-- ================= INTAKE ================= -->
+<div class="view" id="view-intake" data-view="intake">
+  <header class="app-top">
+    <a class="mini-mark" href="#home" data-go="home" aria-label="Freecomers home"><span class="wordmark">freecomers</span></a>
+    <ul class="nav-list"><li><a class="hov" href="#home" data-go="home"><span class="chars" data-chars>Home,</span></a></li><li><a class="hov" href="#" data-toast="Sign-in opens with the beta launch. Start below to try the flow."><span class="chars" data-chars>Log in</span></a></li></ul>
+  </header>
+  <div class="intake">
+    <!-- 0 hero -->
+    <section class="step is-active in-hero" data-step="0" style="padding-bottom:var(--m)">
+      <h1 class="in-title disp"><span style="display:block" data-in="chars">Tell Festy</span><span style="display:block" data-in="chars">your <span class="script" data-script>Story</span></span></h1>
+      <div class="in-side">
+        <div data-in="lines"><p>Two minutes of structured questions, not a chat message you have to guess the right way to answer.</p><p>Then a plan that protects your premiere, fits your budget, and says why.</p></div>
+        <div class="in-actions" data-in="fade">
+          <a class="btn is-ghost is-big hov" href="#home" data-go="home"><span class="chars" data-chars>Back to the site</span></a>
+          <button class="btn is-big hov" data-next><span class="chars" data-chars>Start the story</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1 account -->
+    <section class="step" data-step="1" data-act="Act I, who’s making this" data-num="01">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">Create your account</h2><p class="dek" data-in="lines"><span>Start with one film. No card required. “There’s one shot at a world premiere. Festy makes sure you don’t waste it.”</span></p></div>
+        <div class="step-body" data-in="fade">
+          <button class="google" data-next><svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.6 5.4 2.6 13.2l7.9 6.1C12.4 13.7 17.7 9.5 24 9.5z"/><path fill="#4285F4" d="M46.1 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.4c-.5 2.9-2.2 5.3-4.6 6.9l7.4 5.8c4.3-4 6.9-9.9 6.9-17.2z"/><path fill="#FBBC05" d="M10.5 28.7c-.5-1.4-.8-3-.8-4.7s.3-3.2.8-4.7l-7.9-6.1C1 16.5 0 20.1 0 24s1 7.5 2.6 10.8l7.9-6.1z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.8-5.8l-7.4-5.8c-2.1 1.4-4.8 2.3-8.4 2.3-6.3 0-11.6-4.2-13.5-9.9l-7.9 6.1C6.6 42.6 14.6 48 24 48z"/></svg>Continue with Google</button>
+          <div class="or">or</div>
+          <div class="field"><label for="fName">Full name</label><input id="fName" type="text" placeholder="Your name" autocomplete="name"></div>
+          <div class="field"><label for="fEmail">Email</label><input id="fEmail" type="email" placeholder="you@example.com" autocomplete="email"></div>
+          <div class="field"><label for="fPass">Password</label><input id="fPass" type="password" placeholder="Create a password" autocomplete="new-password"></div>
+          <div class="step-foot"><button class="btn is-big hov" data-next><span class="chars" data-chars>Create account</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button></div>
+          <span class="small-link">Already have an account? <a href="#" data-toast="Sign-in opens with the beta launch.">Sign in</a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 role -->
+    <section class="step" data-step="2" data-act="Act I, who’s making this" data-num="02">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">Your role</h2><p class="dek" data-in="lines"><span>This shapes how Festy talks to you and what it prioritizes.</span></p></div>
+        <div class="step-body is-wide" data-in="fade">
+          <div class="opts" style="--cols:3" data-group="role" data-required>
+            <button class="opt" aria-pressed="false" data-val="Director"><span class="t">Director</span><span class="s">You’re steering the film’s story and its festival run.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="false" data-val="Producer"><span class="t">Producer</span><span class="s">You’re managing budget, team, and submissions.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="false" data-val="Crew"><span class="t">Crew or cast</span><span class="s">You’re looking for verified work, not a festival plan.</span><span class="tick"></span></button>
+          </div>
+          <div class="step-foot"><button class="btn is-big hov" data-next disabled id="roleNext"><span class="chars" data-chars>Continue</span></button><span class="faded" style="font-size:var(--t-small)" id="roleHint">Pick one to continue.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 start -->
+    <section class="step" data-step="3" data-act="Act II, your film" data-num="03">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">Start with your film</h2><p class="dek" data-in="lines"><span>Upload a synopsis or EPK and we’ll pull out the details, or enter them by hand. Either way takes about two minutes.</span></p></div>
+        <div class="step-body is-wide" data-in="fade">
+          <div class="opts" style="--cols:2" data-group="start">
+            <button class="opt" aria-pressed="false" data-val="upload"><span class="rec">Faster</span><span class="t">Upload synopsis or EPK</span><span class="s">PDF or doc. We’ll fill in title, genre, runtime, and language automatically.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="true" data-val="manual"><span class="t">Enter manually</span><span class="s">Type in the details yourself, a handful of short questions.</span><span class="tick"></span></button>
+          </div>
+          <div class="step-foot"><button class="btn is-big hov" data-next><span class="chars" data-chars>Continue</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 film -->
+    <section class="step" data-step="4" data-act="Act II, your film" data-num="04">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">Your film</h2><p class="dek" data-in="lines"><span>The essentials. You can refine every detail later.</span></p></div>
+        <div class="step-body" data-in="fade">
+          <div class="field"><label for="filmTitle">Title</label><input id="filmTitle" type="text" value="Dasubodh" placeholder="e.g. Dasubodh"></div>
+          <div class="two">
+            <div class="field"><label for="fFormat">Format</label><select id="fFormat"><option>Short</option><option selected>Feature</option></select></div>
+            <div class="field"><label for="fRuntime">Runtime (minutes)</label><input id="fRuntime" type="number" min="1" value="73"></div>
+          </div>
+          <div class="two">
+            <div class="field"><label for="fLang">Language</label><select id="fLang"><option selected>Marathi</option><option>Hindi</option><option>English</option><option>Tamil</option><option>Bengali</option><option>Other</option></select></div>
+            <div class="field"><label for="fGenre">Genre</label><select id="fGenre"><option selected>Drama</option><option>Comedy</option><option>Documentary</option><option>Thriller</option><option>Animation</option></select></div>
+          </div>
+          <div class="field"><label for="fCountry">Country of production</label><select id="fCountry"><option selected>India</option><option>Other</option></select></div>
+          <div class="step-foot"><button class="btn is-big hov" data-next><span class="chars" data-chars>Continue</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 premiere -->
+    <section class="step" data-step="5" data-act="Act III, the premiere" data-num="05">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">Has it been shown anywhere yet?</h2><p class="dek" data-in="lines"><span>The single most important answer you’ll give us. It decides which festivals are even eligible. A film can only claim “world premiere” once.</span></p></div>
+        <div class="step-body" data-in="fade">
+          <div class="chiprow" data-group="premiere">
+            <button class="chipopt" aria-pressed="true" data-val="Not yet shown">Not yet shown</button>
+            <button class="chipopt" aria-pressed="false" data-val="Shown online only">Shown online only</button>
+            <button class="chipopt" aria-pressed="false" data-val="Already premiered">Already premiered</button>
+          </div>
+          <div class="step-foot"><button class="btn is-big hov" data-next><span class="chars" data-chars>Continue</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 budget -->
+    <section class="step" data-step="6" data-act="Act III, the budget" data-num="06">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">What’s your festival budget?</h2><p class="dek" data-in="lines"><span>A rough number is fine. Festy uses it to keep your plan realistic, not to judge it.</span></p></div>
+        <div class="step-body" data-in="fade">
+          <label class="field"><span class="lab">Total budget</span><span class="budget-big"><span>₹</span><input id="budgetInput" type="number" min="0" step="1000" value="75000" aria-label="Total budget in rupees"></span></label>
+          <div class="step-foot"><button class="btn is-big hov" data-next><span class="chars" data-chars>Continue</span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 goal -->
+    <section class="step" data-step="7" data-act="Finale, the goal" data-num="07">
+      <div class="step-grid">
+        <div class="step-head"><button class="back" data-prev>← Back</button><h2 class="q disp" data-in="chars">What matters most right now?</h2><p class="dek" data-in="lines"><span>Your goal, not a ceiling. We work out how high this film can realistically reach.</span></p></div>
+        <div class="step-body is-wide" data-in="fade">
+          <div class="opts" style="--cols:2" data-group="goal">
+            <button class="opt" aria-pressed="true" data-val="Go big"><span class="t">Go big</span><span class="s">Oscar and BAFTA-qualifying paths, even if it’s a long shot.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="false" data-val="Strong but realistic"><span class="t">Strong but realistic</span><span class="s">Respected festivals that genuinely fit this film.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="false" data-val="Build a reel"><span class="t">Build a reel</span><span class="s">Selections and visibility, wherever they come from.</span><span class="tick"></span></button>
+            <button class="opt" aria-pressed="false" data-val="Meet collaborators"><span class="t">Meet collaborators</span><span class="s">Industry access over prestige. Markets, not just screens.</span><span class="tick"></span></button>
+          </div>
+          <div class="step-foot"><button class="btn is-red is-big hov" data-next><span class="chars" data-chars>Build my strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8 reveal -->
+    <section class="step reveal" data-step="8" data-act="Your strategy is ready" data-num="08">
+      <p class="kicker" data-in="chars">Your strategy for</p>
+      <div class="film script" id="revealTitle" data-script>Dasubodh</div>
+      <p data-in="lines"><span>We’ve mapped the festivals that fit your film, set the order to submit them in, and flagged what needs your attention first.</span></p>
+      <div data-in="fade"><button class="btn is-big hov" data-go="dash"><span class="chars" data-chars>See your strategy</span><svg class="arr" viewBox="0 0 10 10" aria-hidden="true"><path d="M2 8L8 2M3 2h5v5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button></div>
+    </section>
+  </div>
+  <div class="in-banner" id="inBanner" aria-live="polite" hidden><div class="t"><span id="inBannerT">Act I</span></div><div class="n"><span id="inBannerN">01</span></div><div class="in-progress" id="inProgress"></div></div>
+</div>
+
+<!-- ================= DASHBOARD ================= -->
+<div class="view" id="view-dash" data-view="dash">
+  <header class="app-top dash-top">
+    <a class="mini-mark" href="#home" data-go="home" aria-label="Freecomers home"><span class="wordmark">freecomers</span></a>
+    <ul class="nav-list" id="dashNav">
+      <li><a class="hov is-current" href="#" data-dpage="dashboard"><span class="chars" data-chars>Dashboard,</span></a></li>
+      <li><a class="hov" href="#" data-dpage="festivals"><span class="chars" data-chars>Find festivals,</span></a></li>
+      <li><a class="hov" href="#" data-dpage="community"><span class="chars" data-chars>Community,</span></a></li>
+      <li><a class="hov" href="#" data-dpage="crew"><span class="chars" data-chars>Crew &amp; jobs</span></a></li>
+    </ul>
+  </header>
+  <div class="dash">
+    <div class="dash-tabs" id="dashTabs">
+      <a href="#" class="chipf" aria-pressed="true" data-dpage="dashboard">Dashboard</a><a href="#" class="chipf" aria-pressed="false" data-dpage="festivals">Find festivals</a><a href="#" class="chipf" aria-pressed="false" data-dpage="community">Community</a><a href="#" class="chipf" aria-pressed="false" data-dpage="crew">Crew &amp; jobs</a>
+    </div>
+
+    <!-- PAGE dashboard -->
+    <div class="dpage is-active" data-dpage="dashboard">
+      <div class="dlayout">
+        <aside class="side">
+          <button class="profile dcard-like" data-ask data-context="Isha’s Freecomers profile, 68% complete. Missing: verified crew credit, showreel link, festival history." data-chips="What’s left to complete my profile?|Why does a complete profile matter?|Help me finish my EPK instead">
+            <span class="ring"><span id="initials">IS</span></span>
+            <span><span class="nm" id="profileName" style="display:block">Isha Salvi</span><span class="pc">Profile 68% complete ↗</span></span>
+          </button>
+          <div class="film-sel"><span class="filmName">Dasubodh</span><span aria-hidden="true">▾</span></div>
+          <button class="prem-strip" data-view-go="details" title="World open, international open, national pending"><span class="p-dot"></span><span class="p-dot"></span><span class="p-dot is-warn"></span><span class="p-label">Premieres: 2 open, 1 pending</span></button>
+          <p class="side-lab">Sections</p>
+          <ul class="side-list" id="sideList">
+            <li><button class="side-item is-current" data-dview="strategy">Strategy</button></li>
+            <li><button class="side-item" data-dview="budget">Budget</button></li>
+            <li><button class="side-item" data-dview="details">Project details</button></li>
+            <li><button class="side-item" data-dview="epk">EPK <span class="count">55%</span></button></li>
+            <li><button class="side-item" data-dview="submissions">Submissions <span class="count">4</span></button></li>
+            <li><button class="side-item" data-dview="awards">Awards track <span class="count">1 new</span></button></li>
+          </ul>
+        </aside>
+        <main class="dmain" id="dmain">
+
+          <div class="dview is-active" data-dview="strategy">
+            <div class="ph"><div><h1 class="filmName">Dasubodh</h1><p class="sub" id="filmMeta">Marathi feature, 73 min, ₹75,000 budget</p></div><button class="btn is-ghost hov" data-toast="Plan exported. In the full product this downloads a PDF."><span class="chars" data-chars>Export plan</span></button></div>
+            <div class="metrics">
+              <div class="dcard metric" data-context="Strategy confidence: 78/100 for this plan" data-chips="Why is it only 78?|What would raise it?|Answer more questions now"><p class="lab">Strategy confidence</p><p class="val">78<span style="font-size:.4em;letter-spacing:-.02em">/100</span></p><p class="sub">Answer 4 more questions to sharpen</p></div>
+              <div class="dcard metric" data-context="Budget planned so far: ₹34,859 of the total budget" data-chips="Increase my total budget|Show cheaper festival options|What’s eating most of my budget?"><p class="lab">Budget planned</p><p class="val">₹34,859</p><p class="sub" id="budgetPct">46% of total used</p></div>
+              <div class="dcard metric" data-context="Expected festival selections: about 1.8, based on similar films" data-chips="How is this number calculated?|What would improve my odds?|Show me the safer bets"><p class="lab">Expected selections</p><p class="val">~1.8</p><p class="sub">Ordinal estimate, not a promise</p></div>
+            </div>
+            <div class="dcard" data-context="Phase 1 strategy: 4 festivals to send this film to first, chosen to protect the premiere" data-chips="Swap one of these for a safer pick|Why these four, in this order?|Add a fifth festival to Phase 1">
+              <h3>Phase 1, send it out first <span class="tag">4 festivals, protects your premiere</span></h3>
+              <div class="fest-strip">
+                <div class="fcard"><div class="tile" data-tile="slamdance"></div><span class="tier">Ready, long shot</span><p class="nm">Slamdance Film Festival</p><p class="meta">Los Angeles, US<br>Fee ₹4,769, closes 14 Sept 2026</p></div>
+                <div class="fcard"><div class="tile" data-tile="busan"></div><span class="tier verify">Needs verify</span><p class="nm">Busan International</p><p class="meta">Busan, KR<br>Fee not confirmed</p></div>
+                <div class="fcard"><div class="tile" data-tile="rotterdam"></div><span class="tier verify">Needs verify</span><p class="nm">Rotterdam IFFR</p><p class="meta">Rotterdam, NL<br>Fee not confirmed</p></div>
+                <div class="fcard"><div class="tile" data-tile="tokyo"></div><span class="tier verify">Needs verify</span><p class="nm">Tokyo International</p><p class="meta">Tokyo, JP<br>Fee not confirmed</p></div>
+              </div>
+            </div>
+            <div class="dcard is-ink why" data-context="Why this strategy: reasoning behind the Phase 1 festival order" data-chips="Explain this in plainer language|What data is this based on?|I disagree with this order">
+              <h3>Why this strategy</h3>
+              <p>Your world and international premiere are both still open, so we’re starting with festivals that protect them rather than ones that would burn your premiere status early. Slamdance accepts previously unshown Indian regional-language features and has selected 3 in the last two editions. A genuine fit, not just a big name.</p>
+            </div>
+          </div>
+
+          <div class="dview" data-dview="budget">
+            <div class="ph"><div><h1>Budget</h1><p class="sub"><span class="filmName">Dasubodh</span>, <span class="budgetTotal">₹75,000</span> total festival budget</p></div><button class="btn is-ghost hov" data-view-go-step="6"><span class="chars" data-chars>Update total</span></button></div>
+            <div class="metrics">
+              <div class="dcard metric" data-context="Spent so far on festival submissions: ₹4,769" data-chips="Which fee was this?|Any refunds pending?|Show spend by month"><p class="lab">Spent</p><p class="val">₹4,769</p><p class="sub">1 fee paid</p></div>
+              <div class="dcard metric" data-context="Committed but unpaid fees: ₹0, 3 fees unconfirmed" data-chips="What’s blocking these from confirming?|Notify me when confirmed|Drop one of these to save money"><p class="lab">Committed</p><p class="val">₹0</p><p class="sub">3 fees unconfirmed</p></div>
+              <div class="dcard metric" data-context="Remaining festival budget" data-chips="Would you want to increase your budget?|Would you want to change your budget?|Do you want to see more options in your budget?"><p class="lab">Remaining</p><p class="val" id="remaining">₹70,231</p><p class="sub">of <span class="budgetTotal">₹75,000</span> total</p></div>
+            </div>
+            <div class="dcard" data-context="Fee breakdown across all planned festival submissions" data-chips="Would you want to increase your budget?|Would you want to change your budget?|Do you want to see more options in your budget?">
+              <h3>Fee breakdown by festival</h3>
+              <div class="table-scroll"><table class="data"><tr><th>Festival</th><th>Fee</th><th>Status</th></tr>
+                <tr><td>Slamdance Film Festival</td><td>₹4,769</td><td><span class="pill ready">Paid</span></td></tr>
+                <tr><td>Busan International</td><td class="muted">not confirmed</td><td><span class="pill verify">Unconfirmed</span></td></tr>
+                <tr><td>Rotterdam IFFR</td><td class="muted">not confirmed</td><td><span class="pill verify">Unconfirmed</span></td></tr>
+                <tr><td>Tokyo International</td><td class="muted">not confirmed</td><td><span class="pill verify">Unconfirmed</span></td></tr></table></div>
+            </div>
+            <div class="dcard" data-context="Total festival budget" data-chips="Would you want to increase your budget?|Would you want to change your budget?|Do you want to see more options in your budget?">
+              <h3>Total festival budget</h3>
+              <div class="frow"><span class="k">Current</span><span><span class="budgetTotal">₹75,000</span><button class="edit" data-view-go-step="6">edit directly</button></span></div>
+              <div class="frow"><span class="k">Per selection</span><span class="muted" id="perSel">~₹41,666 per expected selection, at current odds</span></div>
+            </div>
+          </div>
+
+          <div class="dview" data-dview="details">
+            <div class="ph"><div><h1>Project details</h1><p class="sub"><span class="filmName">Dasubodh</span>, the core details Festy uses for every recommendation</p></div></div>
+            <div class="dcard" data-context="Premiere status: world and international premiere still open, national pending one unconfirmed screening" data-chips="Explain what ‘pending’ means here|Which festival is at risk?|Update my premiere status">
+              <h3>Premiere status</h3>
+              <div style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="pill ready">World, open</span><span class="pill ready">International, open</span><span class="pill verify">National, pending</span></div>
+            </div>
+            <div class="dcard" data-context="Core film details" data-chips="Fix my genre tag|Is my runtime affecting eligibility anywhere?|What does Festy use this for?">
+              <h3>Core details</h3>
+              <div class="frow"><span class="k">Title</span><span><span class="filmName">Dasubodh</span><button class="edit" data-view-go-step="4">edit directly</button></span></div>
+              <div class="frow"><span class="k">Format</span><span id="dFormat">Feature</span></div>
+              <div class="frow"><span class="k">Runtime</span><span id="dRuntime">73 minutes</span></div>
+              <div class="frow"><span class="k">Language</span><span id="dLang">Marathi</span></div>
+              <div class="frow"><span class="k">Genre</span><span id="dGenre">Drama</span></div>
+              <div class="frow"><span class="k">Country</span><span id="dCountry">India</span></div>
+            </div>
+            <div class="dcard" data-context="Synopsis and credits" data-chips="Rewrite this to sound more festival-ready|Shorten it for a one-line logline|Which festivals respond well to this kind of story?">
+              <h3>Short synopsis <button class="edit" data-toast="Synopsis editing opens in the full product.">edit directly</button></h3>
+              <p style="font-size:var(--t-main);max-width:52ch;margin-bottom:1rem">“Sometimes, the story we carry in our minds is not the story that truly happened.” We reshape it, dramatize it, and turn it into something easier to understand.</p>
+              <div class="frow"><span class="k">Director</span><span class="directorName">Isha Salvi</span></div>
+              <div class="frow"><span class="k">Producer</span><span>Rohan</span></div>
+              <div class="frow"><span class="k">Writer</span><span class="directorName">Isha Salvi</span></div>
+            </div>
+          </div>
+
+          <div class="dview" data-dview="epk">
+            <div class="ph"><div><h1>Press kit</h1><p class="sub"><span class="filmName">Dasubodh</span>, press and submission materials, reused across every festival</p></div></div>
+            <div class="dcard" data-context="EPK completeness: 55%, 6 of 11 fields complete" data-chips="What am I missing?|Which fields do festivals need most?|Generate a draft for what’s missing">
+              <h3>EPK readiness</h3>
+              <div style="display:flex;justify-content:space-between;font-size:.85rem;margin-bottom:.5rem"><span>6 of 11 fields</span><span>55%</span></div>
+              <div class="prog"><div style="width:55%"></div></div>
+            </div>
+            <div class="dcard" data-context="EPK field checklist: title, runtime, logline, genre, country, short synopsis done; medium synopsis, director statement, contact email, poster, stills missing" data-chips="Generate a draft director statement|What’s a director statement supposed to include?|Which of these do I need before my next deadline?">
+              <h3>Fields</h3>
+              <div class="assets">
+                <div class="asset"><p class="nm">Title</p><p class="st">Complete</p></div><div class="asset"><p class="nm">Runtime</p><p class="st">Complete</p></div>
+                <div class="asset"><p class="nm">Logline</p><p class="st">Complete</p></div><div class="asset"><p class="nm">Genre and country</p><p class="st">Complete</p></div>
+                <div class="asset"><p class="nm">Short synopsis</p><p class="st">Complete</p></div><div class="asset"><p class="nm">Cast list</p><p class="st">Complete</p></div>
+                <div class="asset missing"><p class="nm">Medium synopsis</p><p class="st">Missing <button class="edit" data-toast="Adding fields opens in the full product.">add</button></p></div>
+                <div class="asset missing"><p class="nm">Director statement</p><p class="st">Missing <button class="edit" data-toast="Adding fields opens in the full product.">add</button></p></div>
+                <div class="asset missing"><p class="nm">Contact email</p><p class="st">Missing <button class="edit" data-toast="Adding fields opens in the full product.">add</button></p></div>
+                <div class="asset missing"><p class="nm">Poster</p><p class="st">Missing <button class="edit" data-toast="Uploads open in the full product.">upload</button></p></div>
+                <div class="asset missing"><p class="nm">Stills</p><p class="st">Missing <button class="edit" data-toast="Uploads open in the full product.">upload</button></p></div>
+              </div>
+            </div>
+            <div class="dcard" data-context="Downloadable press materials, generated once the EPK is complete" data-chips="What’s in a festival one-pager?|Can I download what I have so far?|What do buyers look for in an industry market sheet?">
+              <h3>Generated materials <span class="tag">unlocks at 100%</span></h3>
+              <div class="frow"><span class="k">Full press kit</span><span>All fields, photos, and downloadable assets in one file</span></div>
+              <div class="frow"><span class="k">Festival one-pager</span><span>A single-page summary designed for programmers</span></div>
+              <div class="frow"><span class="k">Industry market sheet</span><span>Rights, territory, and sales status for buyers</span></div>
+            </div>
+          </div>
+
+          <div class="dview" data-dview="submissions">
+            <div class="ph"><div><h1>Submissions</h1><p class="sub"><span class="filmName">Dasubodh</span>, every festival tracked in one place</p></div></div>
+            <div class="dcard is-line" data-context="Submission status: 1 shortlisted, 1 submitted, 1 accepted, 1 rejected" data-chips="Which deadline is closest?|Move Slamdance to submitted|Why was the rejected one rejected?">
+              <div class="table-scroll"><table class="data"><tr><th>Festival</th><th>Deadline</th><th>Fee</th><th>Status</th></tr>
+                <tr><td>Slamdance Film Festival</td><td>14 Sept 2026</td><td>₹4,769</td><td><span class="pill verify">Shortlisted</span></td></tr>
+                <tr><td>Mumbai Film Festival</td><td>2 Aug 2026</td><td>₹2,200</td><td><span class="pill plain" style="box-shadow:inset 0 0 0 1px var(--ink)">Submitted</span></td></tr>
+                <tr><td>Kolkata Shorts Fest</td><td class="muted">passed</td><td>₹1,500</td><td><span class="pill ready">Accepted</span></td></tr>
+                <tr><td>Chennai Indie Fest</td><td class="muted">passed</td><td>₹1,800</td><td><span class="pill bad">Rejected</span></td></tr></table></div>
+            </div>
+          </div>
+
+          <div class="dview" data-dview="awards">
+            <div class="ph"><div><h1>Awards track</h1><p class="sub"><span class="filmName">Dasubodh</span>, wins and recognition in one timeline</p></div></div>
+            <div class="dcard" data-context="Festy detected an unconfirmed award at Kolkata Shorts Fest: Best Cinematography" data-chips="Confirm this win|Where did this come from?|Dismiss this detection" id="awardCard">
+              <h3>Festy detected <span class="tag">unconfirmed</span></h3>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap"><span style="font-size:var(--t-h4);letter-spacing:-.03em">Best Cinematography, Kolkata Shorts Fest</span><span style="display:flex;gap:.5rem"><button class="btn hov" id="confirmAward"><span class="chars" data-chars>Confirm</span></button><button class="btn is-ghost hov" id="dismissAward"><span class="chars" data-chars>Dismiss</span></button></span></div>
+            </div>
+            <div class="dcard" data-context="Track record: 1 official selection, 0 wins confirmed yet" data-chips="Add a win manually|Which festivals boost my awards case?|How does this compare to similar films?">
+              <h3>Track record</h3>
+              <div id="trackRows"><div class="frow"><span>Kolkata Shorts Fest</span><span class="muted">Official selection, June 2026</span></div></div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- PAGE festivals -->
+    <div class="dpage" data-dpage="festivals">
+      <div class="ph"><div><h1>Find festivals</h1><p class="sub">380+ festivals, cross-checked against <span class="filmName">Dasubodh</span></p></div></div>
+      <div class="filter-row">
+        <label class="sr" for="festSearch">Search festivals</label>
+        <input type="search" class="search" id="festSearch" placeholder="Search festivals, cities, countries">
+        <label class="sr" for="festSort">Sort festivals</label>
+        <select class="sort" id="festSort"><option value="fit">Sort: best fit</option><option value="deadline">Sort: deadline soonest</option><option value="fee">Sort: lowest fee</option></select>
+      </div>
+      <div class="fest-layout">
+        <aside class="rail" id="rail"></aside>
+        <div class="fest-results"><div class="fgrid" id="festGrid"></div><p class="empty" id="festEmpty" hidden>No festivals match that search or filter. Clear a filter or try a city name.</p></div>
+      </div>
+    </div>
+
+    <!-- PAGE community -->
+    <div class="dpage" data-dpage="community">
+      <div class="ph"><div><h1>Community</h1><p class="sub">Filmmakers, crew, and festival organizers sharing what’s working</p></div></div>
+      <div class="comm">
+        <div class="comm-main">
+          <form class="composer" id="composer"><span class="av is-red" id="composerAv">I</span><label class="sr" for="postInput">Write a post</label><input id="postInput" type="text" placeholder="Share an update, ask the community something"><button class="btn hov" type="submit"><span class="chars" data-chars>Post</span></button></form>
+          <div id="posts">
+            <article class="dcard"><div class="post-head"><span class="av">R</span><div><p class="post-name">Riya Menon <span class="verified">Verified crew</span></p><p class="post-meta">Cinematographer, 2h ago</p></div></div><p class="post-body">Wrapped principal photography on a Malayalam short this week. Looking for a colorist who’s worked with festival deliverables before. Anyone have recommendations?</p><div class="post-actions"><button data-like>12 likes</button><span>4 comments</span></div></article>
+            <article class="dcard"><div class="post-head"><span class="av is-b">A</span><div><p class="post-name">Aditya Rao</p><p class="post-meta">Producer, 1d ago</p></div></div><p class="post-body">PSA for anyone submitting to Busan this year: they’ve moved to an online-only materials portal, no physical screeners. Saved me a shipping headache.</p><div class="post-actions"><button data-like>28 likes</button><span>9 comments</span></div></article>
+            <article class="dcard"><div class="post-head"><span class="av is-y">K</span><div><p class="post-name">Kavya Iyer <span class="verified">Verified organizer</span></p><p class="post-meta">Kolkata Shorts Fest, 3d ago</p></div></div><p class="post-body">Submissions for our 2027 edition open next month. We’re especially looking for regional-language work this cycle. Marathi, Bengali, and Tamil were all underrepresented in our last slate.</p><div class="post-actions"><button data-like>41 likes</button><span>15 comments</span></div></article>
+          </div>
+        </div>
+        <aside class="comm-rail">
+          <div style="margin-bottom:2rem"><p class="rail-t">Trending this week</p><p class="rail-item">Festival strategy for regional-language films</p><p class="rail-item">Every BAFTA-qualifying festival for shorts</p><p class="rail-item">What programmers actually read first</p></div>
+          <div><p class="rail-t">People to follow</p>
+            <div class="follow"><span class="av">R</span><div><p class="post-name">Riya Menon</p><p class="post-meta">Cinematographer</p></div><button class="btn is-ghost hov" data-follow><span class="chars" data-chars>Follow</span></button></div>
+            <div class="follow"><span class="av is-y">K</span><div><p class="post-name">Kavya Iyer</p><p class="post-meta">Kolkata Shorts Fest</p></div><button class="btn is-ghost hov" data-follow><span class="chars" data-chars>Follow</span></button></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- PAGE crew -->
+    <div class="dpage" data-dpage="crew">
+      <div class="ph"><div><h1>Crew &amp; jobs</h1><p class="sub">Verified crew and open calls for production roles</p></div><button class="btn is-red hov" data-toast="Job posting opens with the beta launch."><span class="chars" data-chars>Post a job</span></button></div>
+      <div class="filter-row" style="align-items:center">
+        <label class="sr" for="crewSearch">Search crew</label>
+        <input type="search" class="search" id="crewSearch" placeholder="Search by role, skill, or city">
+      </div>
+      <div class="chiprow" id="crewChips" style="gap:.4rem;margin:-1rem 0 1rem">
+        <button class="chipf" aria-pressed="true" data-role="all">All roles</button><button class="chipf" aria-pressed="false" data-role="cinematography">Cinematography</button><button class="chipf" aria-pressed="false" data-role="editing">Editing</button><button class="chipf" aria-pressed="false" data-role="sound">Sound</button><button class="chipf" aria-pressed="false" data-role="production">Production</button>
+      </div>
+      <h2 class="sec-h">Open calls</h2>
+      <div class="dcard is-line"><div class="table-scroll"><table class="data" id="jobsTable"><tr><th>Role</th><th>Production</th><th>Location</th><th>Posted</th><th></th></tr>
+        <tr data-role="cinematography" data-text="colorist untitled malayalam short kochi"><td>Colorist</td><td>Untitled Malayalam short</td><td>Kochi, India</td><td>2h ago</td><td><button class="btn is-ghost hov" data-apply><span class="chars" data-chars>Apply</span></button></td></tr>
+        <tr data-role="sound" data-text="sound designer dasubodh post-production pune"><td>Sound designer</td><td>Dasubodh (post-production)</td><td>Pune, India</td><td>1d ago</td><td><button class="btn is-ghost hov" data-apply><span class="chars" data-chars>Apply</span></button></td></tr>
+        <tr data-role="production" data-text="line producer guests hindi short remote"><td>Line producer</td><td>Guests (Hindi short)</td><td>Remote</td><td>3d ago</td><td><button class="btn is-ghost hov" data-apply><span class="chars" data-chars>Apply</span></button></td></tr>
+      </table></div></div>
+      <h2 class="sec-h">Verified crew nearby</h2>
+      <div class="crew-grid" id="crewGrid">
+        <div class="crew-tile" data-role="cinematography" data-text="riya menon cinematographer kochi"><span class="av is-red">R</span><p class="crew-name">Riya Menon <span class="verified">Verified</span></p><p class="crew-role">Cinematographer, Kochi</p></div>
+        <div class="crew-tile" data-role="sound" data-text="sameer deshpande sound designer pune"><span class="av is-b">S</span><p class="crew-name">Sameer Deshpande</p><p class="crew-role">Sound designer, Pune</p></div>
+        <div class="crew-tile" data-role="editing" data-text="nisha verma editor mumbai"><span class="av">N</span><p class="crew-name">Nisha Verma <span class="verified">Verified</span></p><p class="crew-role">Editor, Mumbai</p></div>
+      </div>
+      <p class="empty" id="crewEmpty" hidden>No crew or calls match that. Try another role or city.</p>
+    </div>
+  </div>
+
+  <button class="fab" id="fab" aria-controls="festy" aria-expanded="false"><span>Ask Festy</span><span class="k">⌘K</span></button>
+  <p class="hint" id="hint">Hover any card and an “Ask Festy” button appears. Click it to bring that section into the chat.</p>
+  <aside class="festy" id="festy" aria-label="Festy assistant" aria-hidden="true">
+    <div class="festy-head"><div><h3>Festy</h3><p class="sub">Your festival strategist</p></div><button class="festy-close" id="festyClose" aria-label="Close Festy">×</button></div>
+    <div class="festy-ctx" id="festyCtx"><p class="lab">Talking about</p><p id="ctxVal"></p></div>
+    <div class="msgs" id="msgs" data-lenis-prevent aria-live="polite">
+      <div class="msg bot">Hi, your plan for <b class="filmName">Dasubodh</b> is ready. Click “Ask Festy” on any card to bring it here, or ask me anything below.</div>
+      <div class="chips" id="startChips"><button class="chip" data-say="Swap one of my Phase 1 festivals for a safer pick">Swap a Phase 1 festival</button><button class="chip" data-say="Why is my confidence only 78?">Why 78 confidence?</button></div>
+    </div>
+    <form class="festy-input" id="festyForm"><label class="sr" for="chatInput">Message Festy</label><input id="chatInput" type="text" placeholder="Ask Festy" autocomplete="off"><button class="btn is-red" type="submit">Send</button></form>
+  </aside>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script src="/assets/vendor/CustomEase.min.js" defer></script>
+<script src="/assets/vendor/lenis.min.js" defer></script>
+<script src="/assets/js/app.js" defer></script>
+</body>
+</html>
