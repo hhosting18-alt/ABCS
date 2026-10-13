@@ -12,7 +12,7 @@ CustomEase.create('abcsReveal', 'M0,0 C0.3,0.193 0.04,1 1,1');
 CustomEase.create('abcsFill', 'M0,0 C0.3,0 0.806,0.897 1,1');
 
 /* =========================== DATA =========================== */
-const PAL = [['#f63d18','#ffffff'],['#131410','#f63d18'],['#d9e3e7','#131410'],['#e2dc07','#131410'],['#484133','#d9e3e7'],['#ffffff','#f63d18']];
+const PAL = [['#E90101','#ffffff'],['#131410','#E90101'],['#d9e3e7','#131410'],['#e2dc07','#131410'],['#484133','#d9e3e7'],['#ffffff','#E90101']];
 const FEST = {
   slamdance:{ name:'Slamdance Film Festival', short:'Slamdance', mark:['SLAMDANCE'], city:'Los Angeles, US', pal:0, badge:'In your plan', bcls:'', cats:'shorts', mode:'offline', fit:92, fee:4769, deadline:'2026-09-14',
     meta:'Fee from ₹4,769, deadline 14 Sept 2026', reason:'Festy match: your runtime and genre fit their indie slate. India premieres from here got distributor attention last year.',
